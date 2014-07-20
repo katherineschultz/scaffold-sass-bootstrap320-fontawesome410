@@ -1,0 +1,24 @@
+
+
+/* line 4, ../sass/screen.scss */
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+
+
+/* line 8, ../sass/screen.scss */
+body {
+  background: pink;
+}
+
+@media screen and (min-width: 800px) {
+  /* line 13, ../sass/screen.scss */
+  body {
+    background: orange;
+  }
+}
